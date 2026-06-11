@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supercopa de Campeones | SCC</title>
+  <meta name="description" content="Supercopa de Campeones — liga de futebol realista no Roblox Realistic Soccer Street." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scc-stars"></div>
+  <div class="scc-aurora scc-aurora-a"></div>
+  <div class="scc-aurora scc-aurora-b"></div>
+
+  <header class="site-header">
+    <div class="container-fluid">
+      <div class="header-shell d-flex align-items-center justify-content-between gap-3">
+        <a href="#top" class="brand-wrap d-flex align-items-center gap-3 text-decoration-none">
+          <div class="brand-logo-shell pulse-border">
+            <img src="https://i.imgur.com/WyYTp0H.jpeg" alt="Logo Supercopa de Campeones" class="brand-logo" />
+          </div>
+          <div>
+            <span class="eyebrow">Liga RSS · Roblox Realistic Soccer Street</span>
+            <h1 class="brand-title mb-0">Supercopa de Campeones</h1>
+          </div>
+        </a>
+        <div class="header-meta d-none d-lg-flex align-items-center gap-2 flex-wrap">
+          <span class="status-chip status-chip-gold">Season ativa: SCC S4</span>
+          <span class="status-chip status-chip-neutral">Escopo: SCC S4 → SCC S10</span>
+          <span class="status-chip status-chip-success">Hub oficial de resultados</span>
+        </div>
+        <nav class="top-nav d-none d-xl-flex align-items-center gap-2">
+          <a href="#hero" class="top-nav-link">Início</a>
+          <a href="#competitions" class="top-nav-link">Competições</a>
+          <a href="#dashboard-global" class="top-nav-link">Dashboards</a>
+          <a href="#season-s4" class="top-nav-link">S4</a>
+          <a href="#about" class="top-nav-link">Sobre</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section id="hero" class="hero-section">
+      <div class="container-fluid">
+        <div class="hero-panel cosmic-panel" style="
+          background:
+          radial-gradient(circle at 50% 42%, rgba(0,229,255,0.22) 0%, rgba(0,229,255,0.08) 18%, rgba(138,43,226,0.08) 34%, rgba(255,79,168,0.03) 48%, transparent 68%),
+          linear-gradient(160deg, rgba(255,223,0,0.08) 0%, rgba(255,223,0,0.02) 14%, transparent 24%),
+          linear-gradient(180deg, #0A1128 0%, #08101f 44%, #050814 100%);
+          box-shadow: 0 0 120px rgba(0,229,255,0.08), 0 0 48px rgba(255,193,74,0.08), 0 24px 80px rgba(0,0,0,0.5);">
+          <div class="hero-backlight"></div>
+          <div class="row g-4 align-items-center">
+            <div class="col-xl-7 col-lg-7">
+              <div class="hero-copy">
+                <span class="section-kicker">Liga RSS · competições oficiais</span>
+                <h2 class="hero-title gold-title">SUPERCOPA DE <span>CAMPEONES</span></h2>
+                <p class="hero-text">Hub oficial da SCC para League, Copa de Campeones e Finalissima. O site centraliza temporadas S4 até S10, jornadas, resultados, estatísticas por jogador, rankings de goleiros, assistências, tackles, MVPs e Runner Ups em uma única superfície.</p>
+                <div class="hero-badges">
+                  <span class="status-chip status-chip-gold">3 competições</span>
+                  <span class="status-chip status-chip-cyan">Top 10 goleiros</span>
+                  <span class="status-chip status-chip-magenta">MVP & Runner Up</span>
+                  <span class="status-chip status-chip-neutral">HTML + Bootstrap + CSS</span>
+                </div>
+                <div class="hero-actions">
+                  <a href="#season-s4" class="btn btn-scc-primary">Abrir Season S4</a>
+                  <a href="#dashboard-global" class="btn btn-scc-secondary">Ver dashboards</a>
+                  <a href="#journeys" class="btn btn-scc-ghost">Jornadas</a>
+                </div>
+                <div class="hero-insight-grid mt-4">
+                  <article class="insight-mini-card glow-cyan">
+                    <span class="mini-label">Memória histórica</span>
+                    <strong>S4 → S10</strong>
+                    <small>Estrutura pronta para temporadas futuras.</small>
+                  </article>
+                  <article class="insight-mini-card glow-gold">
+                    <span class="mini-label">Motor estatístico</span>
+                    <strong>Discord → SCC</strong>
+                    <small>Ranking oficial da temporada e das copas.</small>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5">
+              <div class="hero-shield-wrap">
+                <div class="hero-logo-stage trophy-orbit">
+                  <div class="whale whale-left"></div>
+                  <div class="whale whale-right"></div>
+                  <div class="hero-logo-card shimmer-card">
+                    <img src="https://i.imgur.com/WyYTp0H.jpeg" alt="Logo da Supercopa de Campeones" class="hero-logo" />
+                  </div>
+                  <div class="fireworks fireworks-a"></div>
+                  <div class="fireworks fireworks-b"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container-fluid">
+        <div class="row g-4 align-items-start">
+          <aside class="col-12 col-lg-3 col-xl-2">
+            <div class="season-sidebar">
+              <div class="sidebar-brand">
+                <img src="https://i.imgur.com/WyYTp0H.jpeg" alt="Logo SCC" class="sidebar-logo" />
+                <div>
+                  <span class="sidebar-label">Navegação</span>
+                  <h3 class="sidebar-title">Seasons</h3>
+                </div>
+              </div>
+              <nav class="season-menu">
+                <a href="#season-s4" class="season-link active"><span>SCC S4</span><small>Ativa</small></a>
+                <a href="#season-s5" class="season-link"><span>SCC S5</span><small>Sem dados</small></a>
+                <a href="#season-s6" class="season-link"><span>SCC S6</span><small>Sem dados</small></a>
+                <a href="#season-s7" class="season-link"><span>SCC S7</span><small>Sem dados</small></a>
+                <a href="#season-s8" class="season-link"><span>SCC S8</span><small>Sem dados</small></a>
+                <a href="#season-s9" class="season-link"><span>SCC S9</span><small>Sem dados</small></a>
+                <a href="#season-s10" class="season-link"><span>SCC S10</span><small>Sem dados</small></a>
+              </nav>
+              <div class="sidebar-subnav mt-3">
+                <a href="#competitions" class="sidebar-mini-link">Competições</a>
+                <a href="#dashboard-global" class="sidebar-mini-link">Dashboards</a>
+                <a href="#journeys" class="sidebar-mini-link">Jornadas</a>
+                <a href="#awards" class="sidebar-mini-link">Premiações</a>
+                <a href="#discord" class="sidebar-mini-link">Discord</a>
+                <a href="#about" class="sidebar-mini-link">Sobre</a>
+              </div>
+            </div>
+          </aside>
+
+          <div class="col-12 col-lg-9 col-xl-10">
+            <div class="content-stack">
+              <section id="competitions" class="section-card section-card-hero-lite">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Arquitetura competitiva</span>
+                    <h2 class="section-title">Competições da SCC</h2>
+                  </div>
+                  <span class="section-pill">League · Copa · Finalissima</span>
+                </div>
+                <div class="competition-grid">
+                  <article class="competition-card competition-card-league">
+                    <div class="competition-icon">🏆</div>
+                    <h3 class="block-title">Supercopa de Campeones League</h3>
+                    <p class="block-text">Liga principal por jornadas, com tabela, estatísticas acumuladas e peso estrutural da temporada.</p>
+                    <div class="chip-row"><span class="mini-chip chip-gold">Principal</span><span class="mini-chip chip-cyan">Pontos corridos</span></div>
+                  </article>
+                  <article class="competition-card competition-card-cup">
+                    <div class="competition-icon">⚔️</div>
+                    <h3 class="block-title">Copa de Campeones</h3>
+                    <p class="block-text">Copa paralela com narrativa eliminatória, confrontos de mata-mata e atmosfera de pressão crescente.</p>
+                    <div class="chip-row"><span class="mini-chip chip-magenta">Knockout</span><span class="mini-chip chip-cyan">Decisiva</span></div>
+                  </article>
+                  <article class="competition-card competition-card-finalissima">
+                    <div class="competition-icon">👑</div>
+                    <h3 class="block-title">Supercopa Finalissima</h3>
+                    <p class="block-text">Clássico de campeões, tratado como evento premium com placar gigante, foco dramático e fundo dedicado.</p>
+                    <div class="chip-row"><span class="mini-chip chip-gold">Evento especial</span><span class="mini-chip chip-magenta">Prestígio máximo</span></div>
+                  </article>
+                </div>
+              </section>
+
+              <section id="dashboard-global" class="section-card">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Visão executiva</span>
+                    <h2 class="section-title">Dashboard global</h2>
+                  </div>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="status-chip status-chip-light">Cross-competição</span>
+                    <span class="status-chip status-chip-neutral">Estrutura zerada</span>
+                  </div>
+                </div>
+                <div class="dashboard-grid dashboard-grid-6 mb-4">
+                  <article class="metric-card metric-card-premium reveal-card">
+                    <span class="metric-label">Maior artilheiro</span>
+                    <strong class="metric-value">0</strong>
+                    <small class="metric-foot">SCC S4</small>
+                  </article>
+                  <article class="metric-card reveal-card">
+                    <span class="metric-label">Líder em assistências</span>
+                    <strong class="metric-value">0</strong>
+                    <small class="metric-foot">SCC S4</small>
+                  </article>
+                  <article class="metric-card reveal-card">
+                    <span class="metric-label">Goleiro elite</span>
+                    <strong class="metric-value">0</strong>
+                    <small class="metric-foot">SCC S4</small>
+                  </article>
+                  <article class="metric-card reveal-card">
+                    <span class="metric-label">Top zagueiro bruto</span>
+                    <strong class="metric-value">0</strong>
+                    <small class="metric-foot">SCC S4</small>
+                  </article>
+                  <article class="metric-card reveal-card">
+                    <span class="metric-label">Mais MVPs</span>
+                    <strong class="metric-value">0</strong>
+                    <small class="metric-foot">SCC S4</small>
+                  </article>
+                  <article class="metric-card reveal-card">
+                    <span class="metric-label">Runner Up king</span>
+                    <strong class="metric-value">0</strong>
+                    <small class="metric-foot">SCC S4</small>
+                  </article>
+                </div>
+
+                <div class="dashboard-boards-grid">
+                  <article class="board-panel board-panel-goals">
+                    <div class="board-header"><h3 class="block-title">Top 10 goleadores</h3><span class="board-tag">Goals</span></div>
+                    <div class="table-shell">
+                      <div class="table-responsive">
+                        <table class="table table-dark align-middle scc-table">
+                          <thead><tr><th>#</th><th>Jogador</th><th>Clube</th><th>Comp.</th><th>Gols</th></tr></thead>
+                          <tbody>
+                            <tr><td>1</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>2</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>3</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>4</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>5</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>6</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>7</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>8</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>9</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>10</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="board-panel board-panel-assists">
+                    <div class="board-header"><h3 class="block-title">Top 10 assistências</h3><span class="board-tag">Assists</span></div>
+                    <div class="table-shell">
+                      <div class="table-responsive">
+                        <table class="table table-dark align-middle scc-table">
+                          <thead><tr><th>#</th><th>Jogador</th><th>Clube</th><th>Comp.</th><th>Assist.</th></tr></thead>
+                          <tbody>
+                            <tr><td>1</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>2</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>3</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>4</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>5</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>6</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>7</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>8</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>9</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                            <tr><td>10</td><td>—</td><td>—</td><td>—</td><td><strong>0</strong></td></tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section id="season-s4" class="section-card season-panel spotlight-panel winner-reactive">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Temporada oficial</span>
+                    <h2 class="section-title">SCC Season 4</h2>
+                  </div>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="status-chip status-chip-gold">Ativa</span>
+                    <span class="status-chip status-chip-cyan">3 competições</span>
+                    <span class="status-chip status-chip-success">S4 iniciada</span>
+                  </div>
+                </div>
+                <div class="row g-4 align-items-stretch mb-4">
+                  <div class="col-xl-8">
+                    <div class="section-card inner-card h-100">
+                      <div class="block-header">
+                        <h3 class="block-title">Resumo operacional da temporada</h3>
+                        <p class="block-subtitle">S4 inaugura a base histórica do site e passa a ser o início do recorte oficial da SCC.</p>
+                      </div>
+                      <div class="summary-mini-grid summary-mini-grid-4">
+                        <div class="mini-metric"><span class="mini-label">Season</span><strong>SCC S4</strong></div>
+                        <div class="mini-metric"><span class="mini-label">Jornadas</span><strong>0</strong></div>
+                        <div class="mini-metric"><span class="mini-label">Competições</span><strong>3</strong></div>
+                        <div class="mini-metric"><span class="mini-label">Status</span><strong>Sem dados</strong></div>
+                      </div>
+                      <p class="block-text mt-4 mb-0">A lógica do projeto considera que resultados, autores de gols, assistências, tackles, defesas e premiações são extraídos dos posts de partida e transformados em tabela oficial, dashboards e histórico navegável por season, competição e jornada.</p>
+                    </div>
+                  </div>
+                  <div class="col-xl-4">
+                    <div class="section-card inner-card h-100 finalissima-preview-card">
+                      <span class="section-kicker">Finalissima</span>
+                      <h3 class="block-title">Destaque da competição</h3>
+                      <div class="giant-score score-counter">
+                        <span>0</span>
+                        <small>vs</small>
+                        <span>0</span>
+                      </div>
+                      <p class="block-text">Placar central com destaque para a partida, MVP, Runner Up e resultado final.</p>
+                      <span class="mini-chip chip-gold">MVP: —</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="season-dashboard-grid mb-4">
+                  <article class="metric-card metric-card-highlight reveal-card"><span class="metric-label">Top goleiro</span><strong class="metric-value">0</strong><small class="metric-foot">0/0</small></article>
+                  <article class="metric-card reveal-card"><span class="metric-label">Top assistências</span><strong class="metric-value">0</strong><small class="metric-foot">0 assists</small></article>
+                  <article class="metric-card reveal-card"><span class="metric-label">Top zagueiro bruto</span><strong class="metric-value">0</strong><small class="metric-foot">0 carrinhos</small></article>
+                  <article class="metric-card reveal-card"><span class="metric-label">Mais MVP</span><strong class="metric-value">0</strong><small class="metric-foot">0 troféus</small></article>
+                </div>
+              </section>
+
+              <section id="journeys" class="section-card">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Partidas e jornadas</span>
+                    <h2 class="section-title">Resultados oficiais</h2>
+                  </div>
+                  <span class="section-pill">Sem dados por enquanto</span>
+                </div>
+                <div class="journey-grid">
+                  <article class="scc-journey-card active-clickable">
+                    <div class="journey-head">
+                      <div>
+                        <span class="section-kicker">League · Jornada 1</span>
+                        <h3 class="block-title mb-1">— vs —</h3>
+                        <p class="block-subtitle mb-0">Aguardando publicação da partida.</p>
+                      </div>
+                      <span class="status-chip status-chip-neutral">Sem dados</span>
+                    </div>
+                    <div class="match-line interactive-match">
+                      <div class="team-box"><span class="team-name">—</span><small class="team-tag">Mandante</small></div>
+                      <div class="match-score"><strong>0</strong><span>:</span><strong>0</strong></div>
+                      <div class="team-box"><span class="team-name">—</span><small class="team-tag">Visitante</small></div>
+                    </div>
+                    <div class="match-events">
+                      <span class="mini-chip chip-gold">MVP · —</span>
+                      <span class="mini-chip chip-magenta">Runner Up · —</span>
+                      <span class="mini-chip chip-cyan">GK · 0%</span>
+                    </div>
+                    <div class="victory-celebration"><span></span><span></span><span></span><span></span></div>
+                  </article>
+
+                  <article class="scc-journey-card active-clickable">
+                    <div class="journey-head">
+                      <div>
+                        <span class="section-kicker">Copa · Fase 1</span>
+                        <h3 class="block-title mb-1">— vs —</h3>
+                        <p class="block-subtitle mb-0">Aguardando publicação da partida.</p>
+                      </div>
+                      <span class="status-chip status-chip-neutral">Sem dados</span>
+                    </div>
+                    <div class="match-line interactive-match">
+                      <div class="team-box"><span class="team-name">—</span><small class="team-tag">Classificado</small></div>
+                      <div class="match-score"><strong>0</strong><span>:</span><strong>0</strong></div>
+                      <div class="team-box"><span class="team-name">—</span><small class="team-tag">Eliminado</small></div>
+                    </div>
+                    <div class="match-events">
+                      <span class="mini-chip chip-gold">MVP · —</span>
+                      <span class="mini-chip chip-magenta">Runner Up · —</span>
+                    </div>
+                    <div class="victory-celebration"><span></span><span></span><span></span><span></span></div>
+                  </article>
+
+                  <article class="scc-journey-card finalissima-zone active-clickable">
+                    <div class="journey-head">
+                      <div>
+                        <span class="section-kicker">Finalissima · Evento</span>
+                        <h3 class="block-title mb-1">— vs —</h3>
+                        <p class="block-subtitle mb-0">Aguardando publicação da partida.</p>
+                      </div>
+                      <span class="status-chip status-chip-gold">Especial</span>
+                    </div>
+                    <div class="match-line interactive-match winner-match">
+                      <div class="team-box"><span class="team-name">—</span><small class="team-tag">Vice</small></div>
+                      <div class="match-score giant"><strong>0</strong><span>:</span><strong>0</strong></div>
+                      <div class="team-box winner-team"><span class="team-name">—</span><small class="team-tag">Campeão</small></div>
+                    </div>
+                    <div class="match-events">
+                      <span class="mini-chip chip-gold">MVP · —</span>
+                      <span class="mini-chip chip-magenta">Runner Up · —</span>
+                      <span class="mini-chip chip-cyan">Finalissima</span>
+                    </div>
+                    <div class="victory-celebration celebration-big"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                  </article>
+                </div>
+              </section>
+
+              <section id="awards" class="section-card">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Premiações individuais</span>
+                    <h2 class="section-title">MVPs, Runner Ups e Departamento Médico</h2>
+                  </div>
+                  <span class="section-pill">MVP · Runner Up · Tackles</span>
+                </div>
+                <div class="row g-4">
+                  <div class="col-12 col-xl-4">
+                    <div class="award-card award-card-gold h-100">
+                      <h3 class="block-title">Hall of Fame MVP</h3>
+                      <ul class="award-list">
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <div class="award-card award-card-magenta h-100">
+                      <h3 class="block-title">Runner Up leaders</h3>
+                      <ul class="award-list">
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-xl-4">
+                    <div class="award-card award-card-cyan h-100">
+                      <h3 class="block-title">Departamento Médico</h3>
+                      <ul class="award-list">
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                        <li><span>—</span><strong>0</strong></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="discord" class="section-card discord-panel">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Comunidade oficial</span>
+                    <h2 class="section-title">Discord da SCC</h2>
+                  </div>
+                  <span class="section-pill">Boletins · partidas · resultados</span>
+                </div>
+                <div class="discord-grid">
+                  <article class="discord-card discord-card-refined">
+                    <div class="discord-icon-wrap discord-icon-wrap-premium">
+                      <img src="https://i.imgur.com/uU13qC2.png" alt="Discord" class="discord-icon discord-logo-color discord-icon-imgur" />
+                    </div>
+                    <div class="discord-copy">
+                      <span class="section-kicker">Comunidade oficial</span>
+                      <h3 class="block-title mb-2">Central de publicação</h3>
+                      <p class="block-text mb-3">As partidas da SCC são publicadas e acompanhadas no canal oficial da comunidade.</p>
+                      <a href="https://discord.gg/Jf4dT4acu9" class="btn btn-scc-primary btn-discord-cta" target="_blank" rel="noopener">Entrar no Discord</a>
+                    </div>
+                  </article>
+                </div>
+              </section>
+
+              <section id="about" class="section-card institutional-panel">
+                <div class="section-heading">
+                  <div>
+                    <span class="section-kicker">Sobre a SCC</span>
+                    <h2 class="section-title">Informações da liga</h2>
+                  </div>
+                  <span class="section-pill">Roblox · RSS</span>
+                </div>
+                <div class="institutional-stack">
+                  <article class="institutional-card">
+                    <h3 class="block-title">O que é a SCC</h3>
+                    <p class="block-text">A Supercopa de Campeones é a liga de futebol realista do Roblox organizada em três competições oficiais: League, Copa de Campeones e Supercopa Finalissima.</p>
+                  </article>
+                  <article class="institutional-card">
+                    <h3 class="block-title">Objetivo do site</h3>
+                    <p class="block-text">Centralizar resultados, jornadas, rankings e prêmios individuais em um único hub oficial da SCC.</p>
+                  </article>
+                </div>
+              </section>
+
+              <section id="season-s5" class="section-card season-placeholder"><div class="section-heading"><div><span class="section-kicker">Temporada oficial</span><h2 class="section-title">SCC Season 5</h2></div><span class="status-chip status-chip-neutral">Sem dados</span></div><p class="block-text mb-0">Seção reservada para publicação futura dos dados da SCC S5.</p></section>
+              <section id="season-s6" class="section-card season-placeholder"><div class="section-heading"><div><span class="section-kicker">Temporada oficial</span><h2 class="section-title">SCC Season 6</h2></div><span class="status-chip status-chip-neutral">Sem dados</span></div><p class="block-text mb-0">Seção reservada para publicação futura dos dados da SCC S6.</p></section>
+              <section id="season-s7" class="section-card season-placeholder"><div class="section-heading"><div><span class="section-kicker">Temporada oficial</span><h2 class="section-title">SCC Season 7</h2></div><span class="status-chip status-chip-neutral">Sem dados</span></div><p class="block-text mb-0">Seção reservada para publicação futura dos dados da SCC S7.</p></section>
+              <section id="season-s8" class="section-card season-placeholder"><div class="section-heading"><div><span class="section-kicker">Temporada oficial</span><h2 class="section-title">SCC Season 8</h2></div><span class="status-chip status-chip-neutral">Sem dados</span></div><p class="block-text mb-0">Seção reservada para publicação futura dos dados da SCC S8.</p></section>
+              <section id="season-s9" class="section-card season-placeholder"><div class="section-heading"><div><span class="section-kicker">Temporada oficial</span><h2 class="section-title">SCC Season 9</h2></div><span class="status-chip status-chip-neutral">Sem dados</span></div><p class="block-text mb-0">Seção reservada para publicação futura dos dados da SCC S9.</p></section>
+              <section id="season-s10" class="section-card season-placeholder"><div class="section-heading"><div><span class="section-kicker">Temporada oficial</span><h2 class="section-title">SCC Season 10</h2></div><span class="status-chip status-chip-neutral">Sem dados</span></div><p class="block-text mb-0">Seção reservada para publicação futura dos dados da SCC S10.</p></section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container-fluid">
+      <div class="footer-shell">
+        <div class="footer-brand">
+          <strong>Supercopa de Campeones</strong>
+          <p>Futebol realista no Roblox · Hub oficial de jornadas, rankings e temporadas.</p>
+        </div>
+        <div class="footer-copy">
+          <p>SCC S4 até S10.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
